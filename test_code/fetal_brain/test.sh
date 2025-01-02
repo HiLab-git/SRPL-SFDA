@@ -1,0 +1,2 @@
+export PYTHONPATH=$PYTHONPATH: test_code
+CUDA_VISIBLE_DEVICES=0,1 python test_code/fetal_brain/test_pseudo_label_metrics_SAM_unet2d.py
